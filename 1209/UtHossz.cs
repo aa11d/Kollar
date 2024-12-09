@@ -97,7 +97,7 @@ class Utvonal {
         }
     }
 
-    static void Main() {
+    public static void Main() {
         General();
         Feliratok();
         Kirajzol();
