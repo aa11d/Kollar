@@ -63,6 +63,21 @@ class Utvonal {
         System.Console.WriteLine($"Szárazföldek átlaga: {atlag:f1}");
     }
 
+    static void TengerekAtlaga() {
+        int eleje,vege;
+        for (var i = 0; i < magas.Length; i++)
+        {
+            if (magas[i] == 0 && magas[i-1] > 0)
+            {
+                eleje = i;
+            }
+            if (magas[i]>0 && magas[i-1] ==0)
+            {
+                vege = i-1;
+            }
+        }
+    }
+
     static void Main() {
         General();
         Feliratok();
