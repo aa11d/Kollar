@@ -54,6 +54,40 @@ class Sorozatok {
         }
         System.Console.WriteLine("Darab: "+darab);
     }
+//Kérjük be valós számok egy sorozatát, és adjuk meg, hogy hány szám van a legkisebb és legnagyobb szám között.
+    static void Feladat3() {
+        Beolvas();
+        int db = 0;
+        double legkis = 0;
+        double legnagy = 0;
+        for (var i = 0; i < tomb.Length; i++)
+        {
+            if (legkis > tomb[i])
+            {
+                legkis = i;
+            }
+            if (legnagy < tomb[i])
+            {
+                legnagy = i;
+            }
+        }
+        if (legkis<legnagy)
+        {
+        for (var i = legkis; i < legnagy; i++)
+        {
+            db++;
+        }   
+        }
+        else
+        {
+        for (var i = legnagy; i < legkis; i++)
+        {
+            db++;
+        } 
+        }
+        System.Console.WriteLine("Darab: "+db);
+
+    }
     public static void Main()
     {
         //Beolvas();
