@@ -1,2 +1,2 @@
 ## School-Prog
-Amit sulis prog órákon csinálok.
+Amit sulis prog órákon csinálok. Mainly C#, esetleges Rust fájlok, ha unatkoztam.
