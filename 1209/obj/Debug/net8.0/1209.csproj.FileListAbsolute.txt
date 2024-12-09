@@ -1,0 +1,5 @@
+D:\Kollar_Akos_11D\Programozas\1209\obj\Debug\net8.0\1209.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\1209\obj\Debug\net8.0\1209.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\1209\obj\Debug\net8.0\1209.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\1209\obj\Debug\net8.0\1209.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\1209\obj\Debug\net8.0\1209.sourcelink.json
