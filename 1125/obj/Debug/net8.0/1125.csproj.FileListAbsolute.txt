@@ -1,0 +1,14 @@
+D:\Kollar_Akos_11D\Programozas\1125\bin\Debug\net8.0\1125.exe
+D:\Kollar_Akos_11D\Programozas\1125\bin\Debug\net8.0\1125.deps.json
+D:\Kollar_Akos_11D\Programozas\1125\bin\Debug\net8.0\1125.runtimeconfig.json
+D:\Kollar_Akos_11D\Programozas\1125\bin\Debug\net8.0\1125.dll
+D:\Kollar_Akos_11D\Programozas\1125\bin\Debug\net8.0\1125.pdb
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.dll
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\refint\1125.dll
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.pdb
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\1125.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Programozas\1125\obj\Debug\net8.0\ref\1125.dll

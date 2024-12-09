@@ -1,0 +1,14 @@
+D:\Kollar_Akos_11D\Programozas\1202\bin\Debug\net8.0\1202.exe
+D:\Kollar_Akos_11D\Programozas\1202\bin\Debug\net8.0\1202.deps.json
+D:\Kollar_Akos_11D\Programozas\1202\bin\Debug\net8.0\1202.runtimeconfig.json
+D:\Kollar_Akos_11D\Programozas\1202\bin\Debug\net8.0\1202.dll
+D:\Kollar_Akos_11D\Programozas\1202\bin\Debug\net8.0\1202.pdb
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.dll
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\refint\1202.dll
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.pdb
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\1202.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Programozas\1202\obj\Debug\net8.0\ref\1202.dll
