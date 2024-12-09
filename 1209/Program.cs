@@ -80,8 +80,21 @@ class Utvonal {
                 darab++;
             }
         }
-        double atlag = hossz / (double)darab;
+        if (magas[magas.Length-1]==0)
+        {
+            vege = magas.Length-1;
+            hossz += vege-eleje+1;
+            darab++;
+        }
+        if (darab>0)
+        {
+            double atlag = hossz / (double)darab;
         System.Console.WriteLine($"Tengerek hosszának átlaga: {atlag:f1}");
+        }
+        else
+        {
+            System.Console.WriteLine("Nem volt tenger");
+        }
     }
 
     static void Main() {
