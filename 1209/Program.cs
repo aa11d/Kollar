@@ -64,7 +64,9 @@ class Utvonal {
     }
 
     static void TengerekAtlaga() {
-        int eleje,vege;
+        int eleje = 0,vege;
+        int hossz = 0;
+        int darab = 0;
         for (var i = 0; i < magas.Length; i++)
         {
             if (magas[i] == 0 && magas[i-1] > 0)
@@ -74,8 +76,12 @@ class Utvonal {
             if (magas[i]>0 && magas[i-1] ==0)
             {
                 vege = i-1;
+                hossz += vege-eleje+1;
+                darab++;
             }
         }
+        double atlag = hossz / (double)darab;
+        System.Console.WriteLine($"Szárazföldek átlaga: {atlag:f1}");
     }
 
     static void Main() {
