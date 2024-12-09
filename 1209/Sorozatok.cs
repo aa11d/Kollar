@@ -58,17 +58,21 @@ class Sorozatok {
     static void Feladat3() {
         Beolvas();
         int db = 0;
-        double legkis = 0;
-        double legnagy = 0;
+        double legkisebb = 0;
+        double legnagyobb = 0;
+        int legkis = 0;
+        int legnagy = 0;
         for (var i = 0; i < tomb.Length; i++)
         {
-            if (legkis > tomb[i])
+            if (legkisebb > tomb[i])
             {
                 legkis = i;
+                legkisebb = tomb[i];
             }
-            if (legnagy < tomb[i])
+            if (legnagyobb < tomb[i])
             {
                 legnagy = i;
+                legnagyobb = tomb[i];
             }
         }
         if (legkis<legnagy)
