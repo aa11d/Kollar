@@ -81,7 +81,7 @@ class Utvonal {
             }
         }
         double atlag = hossz / (double)darab;
-        System.Console.WriteLine($"Szárazföldek átlaga: {atlag:f1}");
+        System.Console.WriteLine($"Tengerek hosszának átlaga: {atlag:f1}");
     }
 
     static void Main() {
