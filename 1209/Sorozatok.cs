@@ -23,6 +23,7 @@ class Sorozatok {
         System.Console.WriteLine();
     }
 
+//Kérjük be valós számok egy sorozatát, és adjuk meg a pozitív elemek szorzatát! Ha nins pozitív elem, akkor adjunk eredményként 1-et!
     static void Feladat1() {
         Beolvas();
         var szorzat = 1.0;
@@ -36,8 +37,10 @@ class Sorozatok {
         System.Console.WriteLine("Eredméyn: "+szorzat);
     }
 
+//Kérjük be valós számok egy sorozatát, és adjuk meg, hogy hány esetben fordul elő, hogy egy szám nagyobb a szomszédjainál. Legelső és legutolsó számot ne vegyük figyelembe!
     static void Feladat2() {
         Beolvas();
+        int darab = 0;
         double elotte = tomb[0];
         System.Console.WriteLine("Ezek a számok nagyobbak, mint szomszédjaik: ");
         for (var i = 1; i < tomb.Length-1; i++)
@@ -47,7 +50,9 @@ class Sorozatok {
                 System.Console.Write(tomb[i]);
             }
             elotte = tomb[i];
+            darab++;
         }
+        System.Console.WriteLine("Darab: "+darab);
     }
     public static void Main()
     {
