@@ -59,7 +59,7 @@ class Sorozatok {
         Beolvas();
         int db = 0;
         double legkisebb = tomb[0];
-        double legnagyobb = 0;
+        double legnagyobb = tomb[0];
         int legkis = 0;
         int legnagy = 0;
         for (var i = 0; i < tomb.Length; i++)
