@@ -1,0 +1,5 @@
+System.Console.WriteLine("Numero?");
+
+int Numero = int.Parse(Console.ReadLine());
+Int32 lastNumber = Numero % 10;
+System.Console.WriteLine($"Numero vége: {lastNumber}");

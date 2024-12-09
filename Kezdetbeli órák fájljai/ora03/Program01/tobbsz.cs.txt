@@ -1,0 +1,30 @@
+using System;
+using System.Globalization;
+
+System.Console.WriteLine("Pozitív szám:");
+int be1 = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Jegyek száma: ");
+int jegyek = int.Parse(Console.ReadLine());
+
+
+bool T_F = true;
+int ell = 1;
+
+while (T_F)
+{
+    if (ell % be1 == 0){
+        int ki1 = ell;
+        int NumLen = (int)Math.Floor(Math.Log10(ell) + 1);
+        if (NumLen == jegyek)
+        {
+            System.Console.Write($"{ki1},");
+        }
+        if (NumLen > jegyek)
+        {
+            T_F = false;
+        }
+
+    }        
+    ell++;
+}

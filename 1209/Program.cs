@@ -62,11 +62,12 @@ class Utvonal {
         double atlag = osszeg / (double)darab;
         System.Console.WriteLine($"Szárazföldek átlaga: {atlag:f1}");
     }
-    
+
     static void Main() {
         General();
         Feliratok();
         Kirajzol();
         Feliratok();
+        SzarazAtlag();
     }
 } // end class

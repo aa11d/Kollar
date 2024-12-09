@@ -1,0 +1,53 @@
+using System;
+
+System.Console.WriteLine("Kérem az időpontot:");
+
+System.Console.WriteLine("Óra:");
+int o1 = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Perc:");
+int p1 = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Másodperc:");
+int mp1 = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Add meg az időtartamot:");
+
+System.Console.WriteLine("Óra:");
+int o2 = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Perc:");
+int p2 = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Másodperc:");
+int mp2 = int.Parse(Console.ReadLine());
+
+int ora;
+int perc;
+int masodperc;
+int nap;
+
+ora = o1 + o2;
+perc = p1 + p1;
+masodperc = mp1 + mp2;
+nap = 0;
+
+if (masodperc >= 60) {
+    int e =  masodperc / 60;
+    masodperc = masodperc - e*60;
+    perc = perc + e;
+}
+
+if (perc >= 60) {
+    int e =  perc / 60;
+    perc = perc - e*60;
+    ora = ora + e;
+}
+
+if (ora >= 24) {
+    int e = ora / 24;
+    ora = ora - e*24;
+    nap = nap + e;
+}
+
+System.Console.WriteLine($"{nap} nap, {ora} óra, {perc} perc, {masodperc} másodperc");

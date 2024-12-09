@@ -1,0 +1,14 @@
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Programozas\ora9\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll

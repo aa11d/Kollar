@@ -1,0 +1,30 @@
+﻿using System;
+
+string a1;
+string a2;
+string a3;
+string a4;
+int nevezo;
+int szamlalo;
+
+
+Console.WriteLine("elso szamlalo: ");
+a1 = Console.ReadLine();
+int s1 = int.Parse(a1);
+
+Console.WriteLine("masodik szamlalo: ");
+a2 = Console.ReadLine();
+int s2 = int.Parse(a2);
+
+Console.WriteLine("elso nevezo: ");
+a3 = Console.ReadLine();
+int n1 = int.Parse(a3);
+
+Console.WriteLine("elso szamlalo: ");
+a4 = Console.ReadLine();
+int n2 = int.Parse(a4);
+
+nevezo = n1 * n2;
+szamlalo = (s1 * s2) + (s2 * n1);
+
+System.Console.WriteLine($"A két tört összege {szamlalo}/{nevezo}");

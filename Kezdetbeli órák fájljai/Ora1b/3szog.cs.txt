@@ -1,0 +1,44 @@
+﻿using System;
+
+Console.Write("a= ");
+string sa = Console.ReadLine();
+int a = int.Parse(sa);
+
+Console.Write("b= ");
+string sb = Console.ReadLine();
+int b = int.Parse(sb);
+
+Console.Write("c= ");
+string sc = Console.ReadLine();
+int c = int.Parse(sc);
+
+int l,m,h;
+
+if ( a>=b && a>= c) {
+    l = a;
+    m = b;
+    h = c;
+}
+else if (b>=a && b>=c) {
+    l = b;
+    m = a;
+    h = c;
+}
+else {
+    l = c;
+    m = a;
+    h = b;
+}
+
+if (m+h > l) {
+    Console.WriteLine("Ez háromszög.");
+    if ( m*m + h*h == l*l) {
+        Console.WriteLine("Derékszögű");
+    }
+    else {
+        Console.WriteLine("Nem derékszögű");
+    }
+}
+else {
+    Console.WriteLine("Nem háromszög.");
+}

@@ -1,0 +1,14 @@
+D:\Kollar_Akos_11D\Asztali\Ora1b\bin\Debug\net8.0\Ora1b.exe
+D:\Kollar_Akos_11D\Asztali\Ora1b\bin\Debug\net8.0\Ora1b.deps.json
+D:\Kollar_Akos_11D\Asztali\Ora1b\bin\Debug\net8.0\Ora1b.runtimeconfig.json
+D:\Kollar_Akos_11D\Asztali\Ora1b\bin\Debug\net8.0\Ora1b.dll
+D:\Kollar_Akos_11D\Asztali\Ora1b\bin\Debug\net8.0\Ora1b.pdb
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.dll
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\refint\Ora1b.dll
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.pdb
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\Ora1b.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Asztali\Ora1b\obj\Debug\net8.0\ref\Ora1b.dll

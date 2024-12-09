@@ -1,0 +1,28 @@
+string a1;
+string a2;
+int terulet;
+int kerulet;
+
+Console.WriteLine("a: ");
+a1 = Console.ReadLine();
+int s1 = int.Parse(a1);
+
+Console.WriteLine("b: ");
+a2 = Console.ReadLine();
+int s2 = int.Parse(a2);
+
+terulet = s1 * s2;
+kerulet = 2*(s1 + s2);
+
+System.Console.WriteLine($"Területe: {terulet}");
+System.Console.WriteLine($"Kerülete: {kerulet}");
+
+int kor;
+if (s1 > s2) {
+    kor = s2/2;
+}
+else {
+    kor = s1/2;
+}
+
+System.Console.WriteLine($"Sugara: {kor}");

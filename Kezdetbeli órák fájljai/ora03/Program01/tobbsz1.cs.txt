@@ -1,0 +1,14 @@
+using System.Globalization;
+
+System.Console.WriteLine("Pozitív szám:");
+int num1 = int.Parse(Console.ReadLine());
+
+
+System.Console.WriteLine($"Háromjegyű többszörösök:");
+for (int i = 99; i < 1000; i++)
+{
+    if (i % num1 == 0){
+        int num2 = i;
+        System.Console.Write($"{num2},");
+    }
+}

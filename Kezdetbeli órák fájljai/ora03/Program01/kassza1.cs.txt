@@ -1,0 +1,26 @@
+System.Console.WriteLine("Fizetendő?");
+
+int Fiz = int.Parse(Console.ReadLine());
+
+Int32 lastNumber = Fiz % 10;
+
+if (3 > lastNumber && lastNumber > 0){
+    Fiz = Fiz - lastNumber;
+}
+else if (4 == lastNumber){
+    Fiz = Fiz + 1;
+}
+else if (3 == lastNumber){
+    Fiz = Fiz +2;
+}
+else if (5 < lastNumber && lastNumber < 8){
+    Fiz = Fiz - (lastNumber - 5);
+}
+else if (8 == lastNumber){
+    Fiz = Fiz + 2;
+}
+else if (9 == lastNumber){
+    Fiz = Fiz + 1;
+}
+
+System.Console.WriteLine($"Kerekítve: {Fiz}");

@@ -1,0 +1,17 @@
+﻿String be1;
+    Console.Write("Elso:");
+    be1 = Console.ReadLine();
+    int a = int.Parse(be1);
+String be2;
+    Console.Write("Masodik:");
+    be2 = Console.ReadLine();
+    int b = int.Parse(be2);
+int osszg = a + b;
+
+System.Console.Write($"Az összeg: " + osszg);
+if (osszg == 20){
+    System.Console.WriteLine(", 20-szal egyenlő");
+}
+else{
+    System.Console.WriteLine("Nem egyenlő 20-szal");
+}

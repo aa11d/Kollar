@@ -1,0 +1,15 @@
+﻿using System;
+
+System.Console.WriteLine("Numero?");
+
+int In = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Osztók: \n");
+
+for (int i = 1; i <= In; i++)
+{
+    if (In % i == 0)
+    {
+        Console.Write($"{i}");
+    }
+}

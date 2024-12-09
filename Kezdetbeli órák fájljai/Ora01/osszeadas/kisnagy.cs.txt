@@ -1,0 +1,20 @@
+﻿String be1;
+    Console.Write("Kérem az egyik számot: ");
+    be1 = Console.ReadLine();
+    int a = int.Parse(be1);
+String be2;
+    Console.Write("Kérem a másik számot: ");
+    be2 = Console.ReadLine();
+    int b = int.Parse(be2);
+
+if (a >= b){
+    int hanyszor = a / b;
+    int marad = a % b;
+    System.Console.WriteLine($"Az első számban {hanyszor}x van meg a második, a maradék {marad}.");
+}
+else{
+    int hanyszor = b / a;
+    int marad = b % a;
+    System.Console.WriteLine($"Az második számban {hanyszor}x van meg az első, a maradék {marad}.");
+}
+

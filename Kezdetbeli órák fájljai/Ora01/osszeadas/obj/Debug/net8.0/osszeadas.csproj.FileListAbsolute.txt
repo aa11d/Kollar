@@ -1,0 +1,14 @@
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\bin\Debug\net8.0\osszeadas.exe
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\bin\Debug\net8.0\osszeadas.deps.json
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\bin\Debug\net8.0\osszeadas.runtimeconfig.json
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\bin\Debug\net8.0\osszeadas.dll
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\bin\Debug\net8.0\osszeadas.pdb
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.dll
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\refint\osszeadas.dll
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.pdb
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\osszeadas.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Programozas\Ora01\osszeadas\obj\Debug\net8.0\ref\osszeadas.dll
