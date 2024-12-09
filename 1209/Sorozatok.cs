@@ -58,7 +58,7 @@ class Sorozatok {
     static void Feladat3() {
         Beolvas();
         int db = 0;
-        double legkisebb = 0;
+        double legkisebb = tomb[0];
         double legnagyobb = 0;
         int legkis = 0;
         int legnagy = 0;
