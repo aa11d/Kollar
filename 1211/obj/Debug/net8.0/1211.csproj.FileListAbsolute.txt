@@ -1,0 +1,15 @@
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\bin\Debug\net8.0\1211.exe
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\bin\Debug\net8.0\1211.deps.json
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\bin\Debug\net8.0\1211.runtimeconfig.json
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\bin\Debug\net8.0\1211.dll
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\bin\Debug\net8.0\1211.pdb
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.AssemblyInfoInputs.cache
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.AssemblyInfo.cs
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.csproj.CoreCompileInputs.cache
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.sourcelink.json
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.dll
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\refint\1211.dll
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.pdb
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\1211.genruntimeconfig.cache
+C:\Users\kollar.akos.nandor\Documents\School-Prog\1211\obj\Debug\net8.0\ref\1211.dll
