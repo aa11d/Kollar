@@ -1,37 +1,26 @@
-﻿using System;
+using System;
 
 class Program()
 {
-    static int[] szavaz;
-    static int[] kapott = new int[11];
-    static void Main()
+    public static void Main()
     {
-        System.Console.Write("Szöveg: ");
-        var Sor = Console.ReadLine();
-        string[] darab = Sor.Split(' ');
-        int[] szavaz = new int[darab.Length];
-        for (int i = 0; i < szavaz.Length; i++)
-        {
-            szavaz[i] = int.Parse(darab[i]);
-            System.Console.Write(szavaz[i]+" ");
-        }
-        Uno();
+        uno();
     }
 
-    static void Uno()
+    static void uno()
     {
-        for (int i = 1; i < kapott.Length; i++)
+        System.Console.Write("Pont: ");
+        var Sor = Console.ReadLine();
+        int[] pontok = Int32.Parse(Sor.Split(' '));
+        int darab = 0;
+        for (int i = 1; i < pontok.Length; i++)
         {
-            for (int j = 0; j < szavaz.Length; j++)
+            if (pontok[i]>pontok[i-1] && pontok[i]>pontok[i+1])
             {
-                if (szavaz[j] == i)
-                {
-                    kapott[i]++;
-                }
+                darab++;
             }
         }
-        System.Console.WriteLine("0 1 2 3 4 5 6 7 8 9");
-        System.Console.WriteLine(kapott);
+        System.Console.WriteLine("Válasz: "+darab);
     }
 
 }
