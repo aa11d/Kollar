@@ -1,0 +1,14 @@
+C:\Users\kollar.akos.nandor\Documents\elsofoku\bin\Debug\net8.0\elsofoku.exe
+C:\Users\kollar.akos.nandor\Documents\elsofoku\bin\Debug\net8.0\elsofoku.deps.json
+C:\Users\kollar.akos.nandor\Documents\elsofoku\bin\Debug\net8.0\elsofoku.runtimeconfig.json
+C:\Users\kollar.akos.nandor\Documents\elsofoku\bin\Debug\net8.0\elsofoku.dll
+C:\Users\kollar.akos.nandor\Documents\elsofoku\bin\Debug\net8.0\elsofoku.pdb
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.AssemblyInfoInputs.cache
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.AssemblyInfo.cs
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.csproj.CoreCompileInputs.cache
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.dll
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\refint\elsofoku.dll
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.pdb
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\elsofoku.genruntimeconfig.cache
+C:\Users\kollar.akos.nandor\Documents\elsofoku\obj\Debug\net8.0\ref\elsofoku.dll

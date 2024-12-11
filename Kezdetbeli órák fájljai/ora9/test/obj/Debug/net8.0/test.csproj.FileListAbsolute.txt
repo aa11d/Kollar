@@ -1,0 +1,14 @@
+D:\Kollar_Akos_11D\Programozas\ora9\test\bin\Debug\net8.0\test.exe
+D:\Kollar_Akos_11D\Programozas\ora9\test\bin\Debug\net8.0\test.deps.json
+D:\Kollar_Akos_11D\Programozas\ora9\test\bin\Debug\net8.0\test.runtimeconfig.json
+D:\Kollar_Akos_11D\Programozas\ora9\test\bin\Debug\net8.0\test.dll
+D:\Kollar_Akos_11D\Programozas\ora9\test\bin\Debug\net8.0\test.pdb
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.dll
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\refint\test.dll
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.pdb
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\test.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Programozas\ora9\test\obj\Debug\net8.0\ref\test.dll
