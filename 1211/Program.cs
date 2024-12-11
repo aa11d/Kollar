@@ -62,4 +62,35 @@ class Program
         System.Console.WriteLine("DB: "+idoszak);
     }
 
+    static void tres()
+    {
+        System.Console.Write("KM: ");
+        var Sor = Console.ReadLine();
+        string[] pontok_s = Sor.Split(' ');
+        int hossz = pontok_s.Length;
+        int[] pontok = new int[hossz];
+        for (int i = 0; i < pontok.Length; i++)
+        {
+            pontok[i] = int.Parse(pontok_s[i]);
+        }
+
+        int hossz = 100;
+        int temp = 0;
+        for (int i = 0; i < pontok.Length; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                temp += pontok[j];
+            }
+            if (!(pontok[0] == 0 || pontok[1] == 0 ||pontok[2] == 0))
+            {
+                if (temp < hossz)
+                {
+                    hossz = temp;
+                }
+            }
+            temp = 0;
+            
+        }
+    }
 }
