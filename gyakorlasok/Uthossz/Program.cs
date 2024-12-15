@@ -122,6 +122,6 @@ class Program
                 break;
             }
         }
-        System.Console.WriteLine($"A legnagyobb és a legkisebb közötti távolság: {indexN - indexK} ");
+        System.Console.WriteLine($"A legnagyobb és a legkisebb közötti távolság: {Math.Abs(indexN - indexK)}");
     }
 }
