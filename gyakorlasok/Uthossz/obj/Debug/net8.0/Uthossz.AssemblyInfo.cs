@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Uthossz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f96ebd3f4bc9c9213f8fd14beeaf95ead571ae2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90f5f554400fe3dbc72af3e539358ea5b3ef4989")]
 [assembly: System.Reflection.AssemblyProductAttribute("Uthossz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Uthossz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

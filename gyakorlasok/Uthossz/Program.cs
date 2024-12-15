@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 class Program
 {
@@ -12,6 +13,10 @@ class Program
         Feliratok();
         Kirajzol();
         Feliratok();
+        System.Console.WriteLine();
+        Tengerszint();
+        System.Console.WriteLine();
+        TengerszintExtra();
     }
 
     static void Generalas(){
@@ -61,4 +66,38 @@ class Program
             System.Console.Write(i%10);
         }
     }
+    static void Tengerszint(){
+        for (int i = 0; i < magas.Length; i++)
+        {
+            if (magas[i] == 0)
+            {
+                System.Console.Write(i+1 + " ");
+            }
+        }
+    }
+    static void TengerszintExtra()
+    {
+        int elso = -1;
+        for (int i = 0; i < magas.Length; i++)
+        {
+            if (magas[i] == 0 && elso == -1)
+            {
+                elso = i;
+            }
+            else if (magas[i] > 0 && elso != -1)
+            {
+                System.Console.Write($"{elso}-{i - 1} ");
+                elso = -1;
+            }
+        }
+
+        // Handle the case when the sequence of zeros ends at the last element
+        if (elso != -1)
+        {
+            System.Console.Write($"{elso}-{magas.Length - 1} ");
+        }
+
+        System.Console.WriteLine();
+    }
+
 }
