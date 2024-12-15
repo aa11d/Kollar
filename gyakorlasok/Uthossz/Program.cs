@@ -100,4 +100,28 @@ class Program
         System.Console.WriteLine();
     }
 
+    static void Legek()
+    {
+        int legnagyobb = magas.Max();
+        int legkisebb = magas.Min();
+        int indexN = -1;
+        int indexK = -1;
+        
+        for (int i = 0; i < magas.Length; i++)
+        {
+            if (magas[i] == legnagyobb && indexN == -1)
+            {
+                indexN = i;
+            }
+            if (magas[i] == legkisebb && indexK == -1)
+            {
+                indexK = i;
+            }
+            if (indexN!= -1 && indexK!= -1)
+            {
+                break;
+            }
+        }
+        System.Console.WriteLine($"A legnagyobb és a legkisebb közötti távolság: {indexN - indexK} ");
+    }
 }
