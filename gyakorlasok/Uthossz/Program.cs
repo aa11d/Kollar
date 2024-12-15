@@ -2,13 +2,63 @@
 
 class Program
 {
+
+    const int utHossz = 100;
+    static int[] magas = new int[utHossz];
+
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
-        // Your code here
+        Generalas();
+        Feliratok();
+        Kirajzol();
+        Feliratok();
+    }
 
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
+    static void Generalas(){
+        Random rnd = new Random();
+        magas[0] = rnd.Next(10,30);
+        for (int i = 1; i < magas.Length; i++)
+        {
+            magas[i] = magas[i-1] + rnd.Next(11) - 5;
+        }
+        for (int j = 0; j < magas.Length; j++)
+        {
+            if(magas[j]<0){
+                magas[j]=0;
+            }
+        }
+    }
+    static void Kirajzol(){
+        int maxMagas = magas.Max();
+        for (int magi = maxMagas+2; magi >= 0; magi--)
+        {
+            System.Console.Write($"{magi,3} ");
+            for (int xi = 0; xi < magas.Length; xi++)
+            {
+                if( magi>magas[xi] ) Console.Write(' ');
+                else Console.Write('\u2588');
+            }
+            System.Console.WriteLine( " " + magi );
+        }
+    }
+    static void Feliratok(){
+        System.Console.Write("    ");
+        for (int i = 0; i < magas.Length; i++)
+        {
+            if (i % 10 == 0)
+            {
+                System.Console.Write(i/10);
+            }
+            else
+            {
+                System.Console.Write(' ');
+            }
+        }
+        System.Console.WriteLine();
+        System.Console.WriteLine("     ");
+        for (int i = 0; i < magas.Length; i++)
+        {
+            System.Console.Write(i%10);
+        }
     }
 }

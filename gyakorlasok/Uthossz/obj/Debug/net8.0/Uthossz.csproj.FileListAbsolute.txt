@@ -1,0 +1,15 @@
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\bin\Debug\net8.0\Uthossz.exe
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\bin\Debug\net8.0\Uthossz.deps.json
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\bin\Debug\net8.0\Uthossz.runtimeconfig.json
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\bin\Debug\net8.0\Uthossz.dll
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\bin\Debug\net8.0\Uthossz.pdb
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.AssemblyInfoInputs.cache
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.AssemblyInfo.cs
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.csproj.CoreCompileInputs.cache
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.sourcelink.json
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.dll
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\refint\Uthossz.dll
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.pdb
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\Uthossz.genruntimeconfig.cache
+C:\Users\stark\Documents\School-Prog\gyakorlasok\Uthossz\obj\Debug\net8.0\ref\Uthossz.dll
