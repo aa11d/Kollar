@@ -124,4 +124,34 @@ class Program
         }
         System.Console.WriteLine($"A legnagyobb és a legkisebb közötti távolság: {Math.Abs(indexN - indexK)}");
     }
+
+    static void LegekLegTavolabb()
+    {
+        int legnagyobb = magas.Max();
+        int legkisebb = magas.Min();
+        int indexN = -1;
+        int indexK = -1;
+        
+        // Find the first occurrence of the maximum value from the beginning
+        for (int i = 0; i < magas.Length; i++)
+        {
+            if (magas[i] == legnagyobb)
+            {
+                indexN = i;
+                break;
+            }
+        }
+        
+        // Find the first occurrence of the minimum value from the end
+        for (int i = magas.Length - 1; i >= 0; i--)
+        {
+            if (magas[i] == legkisebb)
+            {
+                indexK = i;
+                break;
+            }
+        }
+        
+        System.Console.WriteLine($"A legtávolabbi legnagyobb és legkisebb közötti távolság: {Math.Abs(indexN - indexK)}");
+    }
 }
