@@ -164,14 +164,16 @@ class Megoldasok
         }
 
         int ossz = 0;
+        int db = 0;
         for (var i = 0; i < pontok.Length; i++)
         {
             if (pontok[i] > 0)
             {
                 ossz += pontok[i];
+                db++;
             }
         }
-        float atlag = (float)ossz / pontok.Length;
+        float atlag = (float)ossz / db;
         System.Console.WriteLine($"Válasz: {atlag:f1}");
     }
 }
