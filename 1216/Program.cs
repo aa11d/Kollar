@@ -4,7 +4,7 @@ class Megoldasok
 {
     static void Main(string[] args)
     {
-        Feladat3();
+        Feladat5();
     }
 
     static void Feladat1()
@@ -103,5 +103,75 @@ class Megoldasok
         {
             System.Console.WriteLine("Válasz: Nem volt");
         }
+    }
+
+    static void Feladat5()
+    {
+        System.Console.Write("KM: ");
+        var Sor = Console.ReadLine();
+        string[] pontok_s = Sor.Split(' ');
+        int hossz = pontok_s.Length;
+        int[] pontok = new int[hossz];
+        for (int i = 0; i < pontok.Length; i++)
+        {
+            pontok[i] = int.Parse(pontok_s[i]);
+        }
+
+        int db = 0;
+        for (var i = 0; i < pontok.Length; i++)
+        {
+            if (pontok[i] == 0)
+            {
+                db++;
+            }
+        }
+        System.Console.WriteLine("DB: "+db);
+    }
+
+    static void Feladat6()
+    {
+        System.Console.Write("KM: ");
+        var Sor = Console.ReadLine();
+        string[] pontok_s = Sor.Split(' ');
+        int hossz = pontok_s.Length;
+        int[] pontok = new int[hossz];
+        for (int i = 0; i < pontok.Length; i++)
+        {
+            pontok[i] = int.Parse(pontok_s[i]);
+        }
+
+        int db = 0;
+        for (var i = 0; i < pontok.Length; i++)
+        {
+            if (pontok[i] < 8)
+            {
+                db++;
+            }
+        }
+        System.Console.WriteLine("DB: "+db);
+    }
+
+    static void Feladat7()
+    {
+        System.Console.Write("Pont: ");
+        var Sor = Console.ReadLine();
+        string[] pontok_s = Sor.Split(' ');
+        int hossz = pontok_s.Length;
+        int[] pontok = new int[hossz];
+        for (int i = 0; i < pontok.Length; i++)
+        {
+            pontok[i] = int.Parse(pontok_s[i]);
+        }
+
+        int ossz = 0;
+        for (var i = 0; i < pontok.Length; i++)
+        {
+            if (pontok[i] > 0)
+            {
+                ossz += pontok[i];
+            }
+        }
+        float atlag = (float)ossz / pontok.Length;
+        System.Console.WriteLine($"Válasz: {atlag:f1}");
     }
 }
