@@ -264,17 +264,25 @@ static void Feladat9()
             pontok[i] = int.Parse(pontok_s[i]);
         }
 
-        int perc = 0;
+        int lk = 0;
         int db = 0;
-        while (pontok[perc-1] < 20)
+        int ut = 0;
+        for (var i = 0; i < hossz; i++)
         {
-            db += pontok[perc];
-            perc++;
+            for (var l = 0; l < hossz-(i+1); l++)
+            {
+                ut += pontok[i+l];
+                db++;
+                if (ut >= 20)
+                {
+                    if (lk < db)
+                    {
+                        lk = db;
+                    }
+                }
+            }
+            db = 0;
         }
-        if (perc-1 == hossz)
-        {
-            perc = hossz;
-        }
-        System.Console.WriteLine("Válasz: "+perc);
+        System.Console.WriteLine(lk);
     }
 }
