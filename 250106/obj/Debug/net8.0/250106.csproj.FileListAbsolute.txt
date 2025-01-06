@@ -1,0 +1,15 @@
+D:\Kollar_Akos_11D\Programozas\250106\bin\Debug\net8.0\250106.exe
+D:\Kollar_Akos_11D\Programozas\250106\bin\Debug\net8.0\250106.deps.json
+D:\Kollar_Akos_11D\Programozas\250106\bin\Debug\net8.0\250106.runtimeconfig.json
+D:\Kollar_Akos_11D\Programozas\250106\bin\Debug\net8.0\250106.dll
+D:\Kollar_Akos_11D\Programozas\250106\bin\Debug\net8.0\250106.pdb
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.AssemblyInfoInputs.cache
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.AssemblyInfo.cs
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.csproj.CoreCompileInputs.cache
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.sourcelink.json
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.dll
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\refint\250106.dll
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.pdb
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\250106.genruntimeconfig.cache
+D:\Kollar_Akos_11D\Programozas\250106\obj\Debug\net8.0\ref\250106.dll
