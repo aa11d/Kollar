@@ -44,15 +44,52 @@ class TobbDimTomb {
         while (!VanOtos()) {
             PalyaKi();
             Lep();
-            if (!VanOtos()) {
-
+            if (VanOtos()) {
+                System.Console.WriteLine("Király vagy!! Az utóló lépő nyert.");
+                PalyaKi();
             }
         }
     }
 
     static bool VanOtos() {
+        for (int sor = 0; sor < palya.GetLength(0); sor++) {
+            for (int oszlop = 0; oszlop <= palya.GetLength(1) - 5; oszlop++) {
+                if (CheckLine(sor, oszlop, 0, 1)) return true;
+            }
+        }
+
+        for (int sor = 0; sor <= palya.GetLength(0) - 5; sor++) {
+            for (int oszlop = 0; oszlop < palya.GetLength(1); oszlop++) {
+                if (CheckLine(sor, oszlop, 1, 0)) return true;
+            }
+        }
+
+        for (int sor = 0; sor <= palya.GetLength(0) - 5; sor++) {
+            for (int oszlop = 0; oszlop <= palya.GetLength(1) - 5; oszlop++) {
+                if (CheckLine(sor, oszlop, 1, 1)) return true;
+            }
+        }
+
+        for (int sor = 0; sor <= palya.GetLength(0) - 5; sor++) {
+            for (int oszlop = 4; oszlop < palya.GetLength(1); oszlop++) {
+                if (CheckLine(sor, oszlop, 1, -1)) return true;
+            }
+        }
         return false;
     }
+
+    static bool CheckLine(int startSor, int startOszlop, int sorStep, int oszlopStep) {
+        char first = palya[startSor, startOszlop];
+        if (first == ' ') return false;
+
+        for (int i = 1; i < 5; i++) {
+            if (palya[startSor + i * sorStep, startOszlop + i * oszlopStep] != first) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     static void PalyaKi() {
         System.Console.Write(' ');
