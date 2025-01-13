@@ -1,0 +1,15 @@
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.AssemblyInfoInputs.cache
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.AssemblyInfo.cs
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.csproj.CoreCompileInputs.cache
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.sourcelink.json
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\bin\Debug\net9.0\250113.exe
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\bin\Debug\net9.0\250113.deps.json
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\bin\Debug\net9.0\250113.runtimeconfig.json
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\bin\Debug\net9.0\250113.dll
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\bin\Debug\net9.0\250113.pdb
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.dll
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\refint\250113.dll
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.pdb
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\250113.genruntimeconfig.cache
+C:\Users\kollar.akos.nandor\Documents\School-Prog\250113\obj\Debug\net9.0\ref\250113.dll
