@@ -6,7 +6,7 @@ class Vera{
     static int l = 25;
     static int k = 25;
     static int steps = 20;
-    static string[,] palya = new string[k, l];
+    static string[,] palya = new string[l, k];
 
 //random generálás
     static Random rnd = new Random();
@@ -27,7 +27,7 @@ class Vera{
                 }
                 else if (spawn >= RChance && palya[x, y] == null)
                 {
-                    palya[x, y] = "R";
+                    palya[x, y] = "9";
                 }
             }
         }
@@ -57,39 +57,80 @@ class Vera{
 
 //Mozgás
     static void move(){
-
-    }
-
-//szomszédok ellenőrzése
-static int[,] neigh(){
-    int[,] neighborCount = new int[k, l];
-
-    for (int x = 0; x < k; x++)
-    {
-        for (int y = 0; y < l; y++)
+        int randomX = rnd.Next(palya.GetLength(1));
+        int randomY = rnd.Next(palya.GetLength(0));
+        while (palya[randomX, randomY] == null)
         {
-            int count = 0;
-            for (int dx = -1; dx <= 1; dx++)
+            randomX = rnd.Next(palya.GetLength(1));
+            randomY = rnd.Next(palya.GetLength(0));
+        }
+        if (palya[randomX, randomY] == "N")
+        {
+            int xMove = Math.Clamp(rnd.Next(-1, 1) + randomX, 0, l-1);
+            int yMove = Math.Clamp(rnd.Next(-1, 1) + randomX, 0, k-1);
+
+            palya[randomX, randomY] = null;
+            palya[randomX, randomY] = "N";
+
+            if (rnd.Next(100)<20 && VanSzomszed("N", randomX, randomY).Item1)
             {
-                for (int dy = -1; dy <= 1; dy++)
-                {
-                    if (dx == 0 && dy == 0) continue; // Skip the cell itself
-
-                    int nx = x + dx;
-                    int ny = y + dy;
-
-                    if (nx >= 0 && nx < k && ny >= 0 && ny < l && palya[nx, ny] != null)
-                    {
-                        count++;
-                    }
-                }
+                xMove = Math.Clamp(rnd.Next(-1, 1) + randomX, 0, l-1);
+                yMove = Math.Clamp(rnd.Next(-1, 1) + randomX, 0, k-1);
+                palya[randomX,randomY] = "N";
             }
-            neighborCount[x, y] = count;
+        }
+        else if (int.TryParse(palya[randomX, randomY], out int result))
+        {
+            int xMove = Math.Clamp(rnd.Next(-1, 1) + randomX, 0, l-1);
+            int yMove = Math.Clamp(rnd.Next(-1, 1) + randomX, 0, k-1);
+            palya[randomX, randomY] = null;
+            palya[xMove, yMove] = (result - 1).ToString();
+
+            if (rnd.Next(100)<20 && VanSzomszed("N", randomX, randomY).Item1)
+            {
+                int eatX = VanSzomszed("N", randomX, randomY).Item2;
+                int eatY = VanSzomszed("N", randomX, randomY).Item3;
+
+                palya[eatX, eatY] = "9";
+                palya[randomX, randomY] = null;
+            }
+            if (result == 0)
+            {
+                
+            }
         }
     }
 
-    return neighborCount;
-}
+    static (bool,int,int) VanSzomszed(string type, int randomX, int randomY){
+        int neighborCount = 0;
+        int holX = 0;
+        int holY = 0;
+        for (int dx = -1; dx <= 1; dx++)
+        {
+            for (int dy = -1; dy <= 1; dy++)
+            {
+                if (dx!=0 && dy!=0)
+                {
+                    if (0 <= randomX + dx && randomX + dx < palya.GetLength(0) &&
+                    0 <= randomY + dy && randomY + dy < palya.GetLength(1))
+                        {
+                            if (palya[randomX + dx, randomY + dy] == type)
+                            {
+                                neighborCount++;
+                                holX = randomX + dx;
+                                holY = randomY + dy;
+                            }
+                        }
+                }
+            }
+        }
+        return (neighborCount>1,holX, holY);
+    }
+
+//szomszédok ellenőrzése
+    static int neigh(){
+        return 0;
+    }
 
     static void Main(){
         generate();
