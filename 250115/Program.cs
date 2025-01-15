@@ -3,8 +3,8 @@
 class Vera{
 
 // pálya mérete és lépések száma
-    static int l = 25;
-    static int k = 25;
+    static int l = 5;
+    static int k = 5;
     static int steps = 20;
     static string[,] palya = new string[l, k];
 
@@ -39,7 +39,7 @@ class Vera{
             for(int x = 0; x < palya.GetLength(0); x++){
                 if (palya[x, y] == null)
                 {
-                    System.Console.Write("#");
+                    System.Console.Write("-");
                 }
                 else {
                     Console.Write(palya[x, y]);
