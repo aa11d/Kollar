@@ -1,2 +1,2 @@
 ## Kollar
-Amit sulis prog órákon csinálok. Mainly C#, esetleges Rust fájlok, ha unatkoztam.
+Hát te meg mit keresel itt? 
