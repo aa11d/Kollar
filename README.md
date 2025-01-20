@@ -1,2 +1,1 @@
-## Kollar
-Hát te meg mit keresel itt? 
+## Hát te meg mit keresel itt? 
