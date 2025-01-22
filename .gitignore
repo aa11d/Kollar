@@ -1,3 +1,4 @@
 /.vscode
 *.sln
-README.md
+/bin
+/obj
