@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj": {}
+    "c:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj": {
+    "c:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj",
+        "projectUniqueName": "c:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj",
         "projectName": "Hoeses",
-        "projectPath": "C:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj",
+        "projectPath": "c:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\Hoeses.csproj",
         "packagesPath": "C:\\Users\\kollar.akos.nandor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\obj\\",
+        "outputPath": "c:\\Users\\kollar.akos.nandor\\Documents\\Kollar\\250120-22\\Hoeses\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
