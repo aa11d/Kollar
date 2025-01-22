@@ -5,6 +5,8 @@ class Hoeses
 
     const int N = 30;
     const int M = 50;
+
+    const Random rnd = new Random();
     
     static string[,] map = new string[N, M];
     static void Main(string[] args)
@@ -18,10 +20,10 @@ class Hoeses
         {
             for (int x = 0; x < map.GetLength(1); x++)
             {
-                map[x, y] = "*";
+                map[x, y] = " ";
                 if (y == N-1)
                 {
-                    map[x, y] = "H";
+                    map[x, y] = "*";
                 }
             }
         }
@@ -35,6 +37,43 @@ class Hoeses
                 Console.Write(map[x, y]);
             }
             Console.WriteLine();
+        }
+    }
+
+    static void fall(){
+        double spawn_rate = 0.1;
+        double spawn = rnd.NextDouble();
+        int fall = rnd.next(1,4)
+        for (int i = 0; i < map.GetLength(1); i++)
+        {
+            if (spawn < spawn_rate)
+            {
+                map[0, i] = "*";
+            }
+            spawn = rnd.NextDouble();
+        }
+        Draw();
+
+        for (int x = 0; x < map.GetLength(0); x++)
+        {
+            for (int y = 0; y < map.GetLength(1); y++)
+            {
+                if (fall == 1 && map[y-1, x-1] == " ")
+                {
+                    map[x,y] = " ";
+                    map[y-1, x-1] = "*";
+                }
+                else if (fall == 2 && map[y, x-1] == " ")
+                {
+                    map[y, x] = " ";
+                    map[y, x-1] = "*";
+                }
+                else if (fall == 3 && map[y-1, x] == " ")
+                {
+                    map[y, x] = " ";
+                    map[y-1, x] = "*";
+                }
+            }
         }
     }
 }
