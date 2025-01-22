@@ -1,0 +1,15 @@
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\bin\Debug\net9.0\Hoeses2.exe
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\bin\Debug\net9.0\Hoeses2.deps.json
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\bin\Debug\net9.0\Hoeses2.runtimeconfig.json
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\bin\Debug\net9.0\Hoeses2.dll
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\bin\Debug\net9.0\Hoeses2.pdb
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.AssemblyInfoInputs.cache
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.AssemblyInfo.cs
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.csproj.CoreCompileInputs.cache
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.sourcelink.json
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.dll
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\refint\Hoeses2.dll
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.pdb
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\Hoeses2.genruntimeconfig.cache
+C:\Users\kollar.akos.nandor\Documents\Kollar\250120-22\Hoeses2\obj\Debug\net9.0\ref\Hoeses2.dll
