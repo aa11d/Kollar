@@ -15,6 +15,7 @@ class Hoeses
         Gen();
         Draw();
         fall();
+        Console.ReadLine();
     }
 
     static void Gen(){
@@ -61,20 +62,20 @@ class Hoeses
         {
             for (int y = 0; y < map.GetLength(1); y++)
             {
-                if (fall == 1 && map[y-1, x-1] == " ")
+                if (fall == 1 && map[x-1, y-1] == " ")
                 {
                     map[x,y] = " ";
-                    map[y-1, x-1] = "*";
+                    map[x-1, y-1] = "*";
                 }
-                else if (fall == 2 && map[y, x-1] == " ")
+                else if (fall == 2 && map[x, y-1] == " ")
                 {
-                    map[y, x] = " ";
-                    map[y, x-1] = "*";
+                    map[x,y] = " ";
+                    map[x,y-1] = "*";
                 }
-                else if (fall == 3 && map[y-1, x] == " ")
+                else if (fall == 3 && map[x-1, y] == " ")
                 {
-                    map[y, x] = " ";
-                    map[y-1, x] = "*";
+                    map[x,y] = " ";
+                    map[x-1, y] = "*";
                 }
             }
         }
