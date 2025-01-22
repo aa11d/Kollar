@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hoeses2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31a78e067c226256a7beec08d764cb8fdeebb4cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfeced34e5f94e553d669641c43500ba8d30eb5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hoeses2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hoeses2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

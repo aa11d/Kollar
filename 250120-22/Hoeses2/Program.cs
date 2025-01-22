@@ -14,7 +14,7 @@ class Hoeses
         Console.SetWindowSize(N+1,M+1);
         Gen();
         Draw();
-        
+        fall();
     }
 
     static void Gen(){
